@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  background-color: #e9f1f1;
+  padding: 30px;
+  max-width: 800px; /* set a maximum width */
+  margin: 0 auto; /* center the container */
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  background-color: #a50f2f;
+  color: white;
+  padding: 80px;
+  max-width: 800px; /* set a maximum width */
+  margin: 0 auto; /* center the header */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+body {
+  background-color: #0f0f0f; /* set your desired background color */
+}
+.transition {
+  transition: all 0.3s ease-out;
+}
+.remove-button:hover {
+  background-color: #0e9e91;
+}
+.list-data {
+  border: 3px solid #1cd8c8;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(135deg, #0d692c, #dfe6e1);
+  background-color: black;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+ 
+}
+.remove-button::after {
+  content: "x"; /* Add the plus symbol using the content property */
+  position: absolute; /* Position the pseudo-element absolutely within the parent element */
+  top: 50%; /* Position the pseudo-element vertically in the middle of the parent element */
+  right: 5px; /* Position the pseudo-element to the right of the parent element */
+  transform: translateY(-50%); /* Adjust the vertical position of the pseudo-element by half of its height */
+  font-weight: bold; /* Make the plus symbol bold */
+  font-size: 24px; /* Adjust the size of the plus symbol */
+  line-height: 1; /* Adjust the line-height of the pseudo-element to center the plus symbol vertically */
+}
+
+input{
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 500px;
+}
+button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #1cd8c8;
+  color: white;
+  border: none;
+}
+.remove-button{
+  padding: 11px 21px;
+  border-radius: 6px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 11px;
+  position: relative;
+}
+
+button:hover{
+  background-color: #1a4108;
+}
+
+
+
+
+
+
